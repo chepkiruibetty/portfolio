@@ -1,13 +1,16 @@
 * {
   margin: 0;
-  padding: 10px;
+  padding: 0;
   box-sizing: border-box;
 }
 /* navigation bar styles start */
+nav {
+  background-color: gold;
+  width: 100%;
+  padding: 20px;
+}
 .mynav {
   text-align: center;
-  background-color: gold;
-  width: 100%
 }
 .mynav > li {
   list-style: none;
@@ -15,54 +18,39 @@
 }
 .mynav > li > a {
   text-decoration: none;
+  padding: 15px;
+  font-size: 20px;
 }
-
-/* nav {
-  padding: 10px 0;
-  margin-right: 0%;
-  margin: 0 auto;
-  background-color:whitesmoke;
-  position:fixed;
-  width: 100%;
-  height: 2% auto;
+.mynav > li > a:hover {
+  background-color: blueviolet;
+  padding: 21px;
+  color: white;
 }
-nav > ul {
-  text-align: center;
-}
-nav > ul > li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px;
-  font-size: 25px;
-}
-nav > ul > li > a {
-  text-transform: uppercase;
-  text-decoration: none;
-}
-nav > ul > li > a:hover {
-  text-decoration: none;
-} */
-
 /* navigation bar styles end */
-.card {
+/* landing page start */
+.toppage {
+  height: 95vh;
+}
+.toptext {
+  position: absolute;
+  font-size:20px;
   text-align: center;
-  background-image: url("https://bit.ly/35diqDt");
-  width: 100%;
-  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.toptext > img {
+  max-width: 300px;
+  border-radius: 30%;
 }
 
-.title {
-  color: black;
-  font-size: 28px;
-}
-h1 {
-  text-align: center;
-  padding: 10px;
-}
-p {
+/* landing page end */
+/* about section styling */
+
+/* p {
   font-size: 30px;
   margin-left: 10px;
-}
+} */
 .proj-image {
   width: 30%;
   align-items: center;
@@ -94,15 +82,3 @@ footer p {
 .sect {
   font-size: 50px;
 }
-
-body {
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  margin: 0;
-}
-
-/* navigation styles */
-
-/* navigation styles */
