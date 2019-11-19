@@ -1,17 +1,23 @@
- /* {
+* {
   margin: 0;
   padding: 10px;
   box-sizing: border-box;
-}*/
-nav > ul > li {
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px;
 }
-nav > ul {
+/* navigation bar styles start */
+.mynav {
   text-align: center;
+  background-color: gold;
+  width: 100%
 }
-nav {
+.mynav > li {
+  list-style: none;
+  display: inline;
+}
+.mynav > li > a {
+  text-decoration: none;
+}
+
+/* nav {
   padding: 10px 0;
   margin-right: 0%;
   margin: 0 auto;
@@ -20,7 +26,13 @@ nav {
   width: 100%;
   height: 2% auto;
 }
-li {
+nav > ul {
+  text-align: center;
+}
+nav > ul > li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
   font-size: 25px;
 }
 nav > ul > li > a {
@@ -29,11 +41,13 @@ nav > ul > li > a {
 }
 nav > ul > li > a:hover {
   text-decoration: none;
-}
+} */
+
+/* navigation bar styles end */
 .card {
   text-align: center;
-  background-image:url('https://bit.ly/35diqDt');
-  width:100%;
+  background-image: url("https://bit.ly/35diqDt");
+  width: 100%;
   margin: auto;
 }
 
@@ -49,44 +63,46 @@ p {
   font-size: 30px;
   margin-left: 10px;
 }
-.proj-image{
-    width:30%;
-    align-items: center;
-    padding-left: 780px;
-    display:block;
-    height:auto;
+.proj-image {
+  width: 30%;
+  align-items: center;
+  padding-left: 780px;
+  display: block;
+  height: auto;
 }
-.p{
-    text-align:center;
-}
-.icon{
+.p {
   text-align: center;
-  font-size:50px;
-  color:black;
 }
-footer p{
+.icon {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+footer p {
   text-decoration: none;
   text-underline-position: none;
 }
-.link{
+.link {
   text-align: center;
 }
-.footer{
-  border:3px solid black;
-  width:100%;
-  padding:50px;
-  margin-top:50px;
-  background-color:rgba(100,50,30,0.5) ;
-
+.footer {
+  width: 100%;
+  padding: 0 auto;
+  margin-top: 0px;
+  background-color: rgba(100, 50, 30, 0.5);
 }
-.sect{
-  font-size:50px;
+.sect {
+  font-size: 50px;
 }
 
-body{
-top: 0;
+body {
+  top: 0;
   right: 0;
   left: 0;
   bottom: 0;
   margin: 0;
 }
+
+/* navigation styles */
+
+/* navigation styles */
