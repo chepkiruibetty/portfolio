@@ -45,12 +45,18 @@ nav {
 }
 
 /* landing page end */
-/* about section styling */
+/* about section styling starts */
+.abt{
+  text-align:center;
+  font-size:30px;
+  margin:20px;
+}
+#obj,#vsn,#inter{
+  padding:20px;
+}
+/*about section ends*/
 
-/* p {
-  font-size: 30px;
-  margin-left: 10px;
-} */
+
 .proj-image {
   width: 30%;
   align-items: center;
