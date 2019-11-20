@@ -6,7 +6,7 @@
 
 ## Description
 
-This is my portfolio website. It contains details about me, projects i have done, my skills and how you can contact me. Dated: Tue,Oct,15,2019
+This is my portfolio website. It contains details about me, projects i have done, my skills and how you can contact me. Dated: Wed,Nov,20,2019
 
 ## Setup/Installation Requirements
 
@@ -30,4 +30,4 @@ GIT (for version control)
 
 ## Licence
 
-https://github.com/Naereen/StrapDown.js/blob/master/LICENSE
+- Licensed under the  [MIT license](LICENSE).
