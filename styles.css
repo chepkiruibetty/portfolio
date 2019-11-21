@@ -33,7 +33,7 @@ nav {
 }
 .toptext {
   position: absolute;
-  font-size:20px;
+  font-size: 20px;
   text-align: center;
   top: 50%;
   left: 50%;
@@ -46,16 +46,15 @@ nav {
 
 /* landing page end */
 /* about section styling starts */
-.abt{
-  text-align:center;
-  font-size:30px;
-  margin:20px;
+.abt {
+  font-size: 30px;
+  margin: 20px;
 }
-#obj,#vsn,#inter{
-  padding:20px;
+#obj,#vsn,#skills{
+  padding: 20px;
+  text-align:center;
 }
 /*about section ends*/
-
 
 .proj-image {
   width: 30%;
