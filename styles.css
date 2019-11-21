@@ -108,11 +108,7 @@ nav {
   font-size:30px;
 }
 /*project styling ends*/
-
-footer p {
-  text-decoration: none;
-  text-underline-position: none;
-}
+/*footer styling starts*/
 .footer {
   font-family:sans-serif;
   font-size: 1.7em;
@@ -124,4 +120,5 @@ footer p {
   width: 100%;
   text-align:center;
  }
+ /*footer styling ends*/
 
