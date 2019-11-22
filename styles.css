@@ -55,6 +55,10 @@ nav {
   margin: 20px;
   background-image: url('https://bit.ly/2ObfkdC');
   background-repeat:no-repeat;
+  background-size: cover;
+  margin-right: -2px;
+  margin-left:-2px;
+  margin-top:-2px;
 }
 #obj,
 #vsn,
