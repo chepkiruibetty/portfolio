@@ -53,6 +53,8 @@ nav {
 .abt {
   font-size: 30px;
   margin: 20px;
+  background-image: url('https://bit.ly/2ObfkdC');
+  background-repeat:no-repeat;
 }
 #obj,
 #vsn,
@@ -69,7 +71,7 @@ nav {
   width: 50%;
   padding: 5%;
 }
-.projects{
+.project{
   padding: 0 10% 2% 10%;
 }
 .card {
@@ -84,7 +86,7 @@ nav {
 .container {
   padding: 20px 16px;
 }
-.projects > h1{
+.project > h1{
  text-align:center;
  font-size:30px; 
 }
