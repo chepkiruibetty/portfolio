@@ -30,7 +30,7 @@ nav {
 /* landing page start */
 .toppage {
   height: 95vh;
-  background: url(https://bit.ly/2rgQwI0);
+  background-image: url('https://bit.ly/2rgQwI0');
   /* background-image: linear-gradient(grey,white); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,6 +79,7 @@ nav {
 }
 .project {
   padding: 0 10% 2% 10%;
+  background-color:
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
